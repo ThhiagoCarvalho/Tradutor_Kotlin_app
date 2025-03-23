@@ -36,12 +36,13 @@ android {
 }
 
 dependencies {
-
+  implementation 'com.squareup.okhttp3:okhttp:4.9.3' // Use a versão mais recente
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.cronet.embedded)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
