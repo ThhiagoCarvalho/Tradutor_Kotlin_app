@@ -28,7 +28,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         val textTexto  = findViewById<TextView>(R.id.Texto)
-        val b = findViewById<TextView>(R.id.TextoTraduzido)
+      
 
         val textTextoTraduzido = findViewById<TextView>(R.id.TextoTraduzido)
         val avisoText = findViewById<TextView>(R.id.avText)
